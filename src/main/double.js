@@ -2,4 +2,11 @@ function double(number) {
   return number * 2;
 }
 
-module.exports = double;
+function printText(text) {
+  return "result : " + text;
+}
+
+module.exports = {
+  double,
+  printText,
+};
